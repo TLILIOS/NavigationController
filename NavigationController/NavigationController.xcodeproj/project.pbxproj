@@ -7,15 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		57A48AB82BE164E0000529BF /* GreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57A48AB72BE164E0000529BF /* GreenViewController.swift */; };
+		57A48ABA2BE164EF000529BF /* BrownViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57A48AB92BE164EF000529BF /* BrownViewController.swift */; };
 		57ABB4392BE016A400CF15A9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57ABB4382BE016A400CF15A9 /* AppDelegate.swift */; };
 		57ABB43B2BE016A400CF15A9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57ABB43A2BE016A400CF15A9 /* SceneDelegate.swift */; };
 		57ABB43D2BE016A400CF15A9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57ABB43C2BE016A400CF15A9 /* ViewController.swift */; };
 		57ABB4402BE016A400CF15A9 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 57ABB43F2BE016A400CF15A9 /* Base */; };
 		57ABB4422BE016A700CF15A9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 57ABB4412BE016A700CF15A9 /* Assets.xcassets */; };
 		57ABB4452BE016A700CF15A9 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 57ABB4442BE016A700CF15A9 /* Base */; };
+		57ABB44F2BE153C500CF15A9 /* ContainerTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57ABB44E2BE153C500CF15A9 /* ContainerTabBarController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		57A48AB72BE164E0000529BF /* GreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreenViewController.swift; sourceTree = "<group>"; };
+		57A48AB92BE164EF000529BF /* BrownViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrownViewController.swift; sourceTree = "<group>"; };
 		57ABB4352BE016A400CF15A9 /* NavigationController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NavigationController.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		57ABB4382BE016A400CF15A9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		57ABB43A2BE016A400CF15A9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +29,7 @@
 		57ABB4412BE016A700CF15A9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		57ABB4442BE016A700CF15A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		57ABB4462BE016A700CF15A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		57ABB44E2BE153C500CF15A9 /* ContainerTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainerTabBarController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +69,9 @@
 				57ABB4412BE016A700CF15A9 /* Assets.xcassets */,
 				57ABB4432BE016A700CF15A9 /* LaunchScreen.storyboard */,
 				57ABB4462BE016A700CF15A9 /* Info.plist */,
+				57ABB44E2BE153C500CF15A9 /* ContainerTabBarController.swift */,
+				57A48AB72BE164E0000529BF /* GreenViewController.swift */,
+				57A48AB92BE164EF000529BF /* BrownViewController.swift */,
 			);
 			path = NavigationController;
 			sourceTree = "<group>";
@@ -139,8 +148,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				57ABB43D2BE016A400CF15A9 /* ViewController.swift in Sources */,
+				57ABB44F2BE153C500CF15A9 /* ContainerTabBarController.swift in Sources */,
+				57A48ABA2BE164EF000529BF /* BrownViewController.swift in Sources */,
 				57ABB4392BE016A400CF15A9 /* AppDelegate.swift in Sources */,
 				57ABB43B2BE016A400CF15A9 /* SceneDelegate.swift in Sources */,
+				57A48AB82BE164E0000529BF /* GreenViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
